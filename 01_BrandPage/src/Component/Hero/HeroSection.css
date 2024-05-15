@@ -1,0 +1,34 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.hero-content h1 {
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 60px;
+}
+.hero-content p {
+  font-weight: 600;
+}
+
+.hero-btn {
+  display: flex;
+  gap: 40px;
+}
+
+.hero-btn button {
+  background: salmon;
+  margin: 0 8px;
+  border-radius: 10%;
+  margin-top: 8px;
+}
+
+.avilable {
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 8px;
+}
